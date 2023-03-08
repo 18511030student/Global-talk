@@ -1,0 +1,250 @@
+/*
+Template Name:Paul Lapkin
+Template URI:
+Description:An awesome portfolio site design
+Author:Moshiur
+Author URI:
+Support:asifmostafa 01@gmail.com
+Version:1.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;700&display=swap');
+
+/*
+CSS INDEX
+
+1.Common CSS
+2.HERO SECTION 
+3.ABOUT
+4.PROCESS
+5.EXPERIENCE 
+6.portfolio
+7.TESTIMONIAL
+8.CONTACT
+9.FOOTER
+*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    padding-top: 0;
+    
+}
+.header_wrapper{
+    width: 1416px;
+}
+.header-scrolled {
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background:#fff;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
+}
+.header-scrolled .navbar-brand img { 
+    width:190px;
+    height: auto;
+    animation: animated 0.1s ease-in-out;
+} 
+@keyframes animated {
+    0% {
+        width:210px;
+    }
+    50% {
+        width:200px;
+    }
+    100% {
+        width:190px;
+    }
+}
+.navbar-brand img{
+    width: 210px;
+}
+.header-scrolled .nav-item .nav-link{
+    font-size: 17px; 
+}
+.menu-navbar-nav li a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 19.8688px;
+line-height: 100%;
+/* identical to box height, or 20px */
+
+letter-spacing: -0.04em;
+
+color: #585858;
+
+}
+.btn-extra-header {
+background: #2b788b;
+padding: 15px 25px;
+border-radius: 17px;
+border: 2px solid #2b788b;
+min-width: 128px;
+
+}
+.learn-more-btn{
+    padding: 15px 25px;
+border-radius: 17px;
+border: 1px solid #2b788b;
+min-width: 128px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.learn-more-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8688px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    
+    letter-spacing: -0.04em;
+    
+    color: #000000 ;
+    
+}
+.btn-extra-header {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19.8688px;
+line-height: 100%;
+/* identical to box height, or 20px */
+
+
+letter-spacing: -0.04em;
+
+color: #FFFFFF !important;
+
+}
+
+#hero{
+    padding: 100px 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8688px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    
+    color: #2B788B;
+}
+h1{
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73.241px;
+    line-height: 100%;
+    /* or 73px */
+    
+    letter-spacing: -0.04em;
+    
+    color: #000000;
+    
+}
+.col-lg-6 p,.col-lg-6 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.7072px;
+    line-height: 140%;
+    /* or 32px */
+    
+    letter-spacing: -0.04em;
+    
+    color: #585858;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+.btn-1{
+    min-width: 128px;
+    border: 1px solid #2B788B;
+    border-radius: 5px;
+    padding: 15px 0;
+    
+
+}
+.btn-1 .sign{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19.8688px;
+line-height: 100%;
+/* identical to box height, or 20px */
+
+letter-spacing: -0.04em;
+
+color: #000000;
+
+
+
+}
+.btn-2{
+    min-width: 180px;
+    border: 1px solid #2B788B;
+    background: #2B788B;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+.btn-2 .learn{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19.8688px;
+line-height: 100%;
+/* identical to box height, or 20px */
+
+letter-spacing: -0.04em;
+
+color: #fff;
+
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content-1 span img,.content-2 span img{
+    width: 28px;
+    height: 35px;
+}
+.content-1 span,.content-2 span {
+    font-weight: 700;
+    font-size: 36px;
+}
+.content-1 p,.content-2 p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 19.8688px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+letter-spacing: -0.04em;
+
+color: #585858;
+}
